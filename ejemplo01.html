@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Formularios: campos de entrada</h2>
+    <form>
+        <label for="fname">Nombre de pila:</label> <br>
+        <input type="text" name="fname" id="fname" placeholder="Ingresa tu nombre" value="Maryori Romina" disabled> <br> <br>
+
+        <label for="lname">Apellido Paterno:</label> <br>
+        <input type="text" name="lname" id="lname" placeholder="Ingresa tu A. paterno"> <br> <br>
+
+        <label for="apm">Apellido Materno:</label> <br>
+        <input type="text" name="ap" id="apm" placeholder="Ingresa tu A.materno">
+        
+
+        <p>Elija su idioma web favorito</p>
+        <input type="radio" name="fav_languaje" id="css">
+        <label for="css">CSS</label> <br>
+
+        <input type="radio" name="fav_languaje" id="javascript">
+        <label for="javascript">JAVASCRIPT</label> <br>
+
+        <input type="radio" name="fav_languaje" id="html">
+        <label for="html">HTML</label> <br>
+
+
+        <p>Mi bicicleta favorita</p>
+        <input type="checkbox" name="vehicle1" id="vehicle1">
+        <label for="vehicle1">Tengo una bicicleta</label> <br>
+
+        <input type="checkbox" name="vehicle1" id="vehicle2">
+        <label for="vehicle2">Tengo un carro</label> <br>
+
+        <input type="checkbox" name="vehicle1" id="vehicle3">
+        <label for="vehicle3"> Tengo un barco</label> <br>
+        <br> 
+
+        <label for="cars">Elije un carro:</label>
+        <select name="cars" id="cars" size="4" multiple>
+            <option value="Volvo">Volvo</option>
+            <option value="Toyota" selected>Toyota</option>
+            <option value="Toyota">Fiat</option>
+            <option value="Audi">Audi</option>
+        </select>
+        <br><br> 
+
+        <p>Descripción:</p>
+        <textarea name="message" id="text" cols="30" rows="10">
+        </textarea>
+        
+        <br>
+        <input type="submit" value="Registrar">
+
+    </form>
+</body>
+</html>
